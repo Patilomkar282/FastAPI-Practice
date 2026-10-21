@@ -12,7 +12,6 @@ app.include_router(departmentroutes)
 
 app.include_router(userrouter)
 
-
 @app.get("/")
 def home():
     return {
