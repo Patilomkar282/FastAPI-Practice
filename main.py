@@ -9,6 +9,7 @@ Base.metadata.create_all(bind=engine)
 app = FastAPI(title="Practice project to understand fast api")
 app.include_router(employeeroutes)
 app.include_router(departmentroutes)
+
 app.include_router(userrouter)
 
 
